@@ -68,7 +68,7 @@ const ProductsSection = () => {
                     <span className="truncate">{prod.doctor}</span>
                   </div>
                 ) : (
-                  <span className="text-xs font-medium text-amber-400">{prod.tag}</span>
+                  <span className="text-xs font-medium text-primary">{prod.tag}</span>
                 )}
 
                 <h3 className="font-semibold text-sm text-foreground leading-snug">{prod.name}</h3>
